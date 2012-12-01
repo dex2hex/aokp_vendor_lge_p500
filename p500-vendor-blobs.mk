@@ -81,6 +81,13 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p500/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/lge/p500/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     vendor/lge/p500/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
+	vendor/lge/p500/proprietary/lib/libomx_aacdec_sharedlibrary.so:/system/lib/libomx_aacdec_sharedlibrary.so \
+vendor/lge/p500/proprietary/lib/libomx_amrdec_sharedlibrary.so:/system/lib/libomx_amrdec_sharedlibrary.so \
+vendor/lge/p500/proprietary/lib/libomx_amrenc_sharedlibrary.so:/system/lib/libomx_amrenc_sharedlibrary.so \
+vendor/lge/p500/proprietary/lib/libomx_avcdec_sharedlibrary.so:/system/lib/libomx_avcdec_sharedlibrary.so \
+vendor/lge/p500/proprietary/lib/libomx_m4vdec_sharedlibrary.so:/system/lib/libomx_m4vdec_sharedlibrary.so \
+vendor/lge/p500/proprietary/lib/libomx_mp3dec_sharedlibrary.so:/system/lib/libomx_mp3dec_sharedlibrary.so \
+vendor/lge/p500/proprietary/lib/libomx_sharedlibrary.so:/system/lib/libomx_sharedlibrary.so \
     vendor/lge/p500/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
     vendor/lge/p500/proprietary/lib/libOmxAacEnc.so:system/lib/libOmxAacEnc.so \
     vendor/lge/p500/proprietary/lib/libOmxAdpcmDec.so:system/lib/libOmxAdpcmDec.so \
@@ -89,6 +96,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p500/proprietary/lib/libOmxAmrRtpDec.so:system/lib/libOmxAmrRtpDec.so \
     vendor/lge/p500/proprietary/lib/libOmxAmrwbDec.so:system/lib/libOmxAmrwbDec.so \
     vendor/lge/p500/proprietary/lib/libOmxEvrcEnc.so:system/lib/libOmxEvrcEnc.so \
+vendor/lge/p500/proprietary/lib/libOmxEvrcDec.so:system/lib/libOmxEvrcDec.so \
     vendor/lge/p500/proprietary/lib/libOmxEvrcHwDec.so:system/lib/libOmxEvrcHwDec.so \
     vendor/lge/p500/proprietary/lib/libOmxH264Dec.so:system/lib/libOmxH264Dec.so \
     vendor/lge/p500/proprietary/lib/libOmxMp3Dec.so:system/lib/libOmxMp3Dec.so \
@@ -96,8 +104,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p500/proprietary/lib/libOmxOn2Dec.so:system/lib/libOmxOn2Dec.so \
     vendor/lge/p500/proprietary/lib/libOmxQcelp13Enc.so:system/lib/libOmxQcelp13Enc.so \
     vendor/lge/p500/proprietary/lib/libOmxQcelpHwDec.so:system/lib/libOmxQcelpHwDec.so \
+vendor/lge/p500/proprietary/lib/libOmxQcelpDec.so:system/lib/libOmxQcelpDec.so \
     vendor/lge/p500/proprietary/lib/libOmxVidEnc.so:system/lib/libOmxVidEnc.so \
     vendor/lge/p500/proprietary/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
     vendor/lge/p500/proprietary/lib/libOmxWmvDec.so:system/lib/libOmxWmvDec.so \
+    vendor/lge/p500/proprietary/lib/libOpenMAXAL.so:system/lib/libOpenMAXAL.so \
+    vendor/lge/p500/proprietary/lib/libOmxCore.so:system/lib/libOmxCore.so \
     vendor/lge/p500/proprietary/lib/libmm-adspsvc.so:system/lib/libmm-adspsvc.so \
     vendor/lge/p500/proprietary/lib/hw/camera.msm7x27.so:system/lib/hw/camera.msm7x27.so
